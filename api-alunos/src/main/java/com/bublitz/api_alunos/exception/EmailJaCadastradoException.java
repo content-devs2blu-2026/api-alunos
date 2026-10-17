@@ -1,0 +1,9 @@
+package com.bublitz.api_alunos.exception;
+
+public class EmailJaCadastradoException extends RuntimeException {
+
+	public EmailJaCadastradoException(String mensagem) {
+		super(mensagem);
+	}
+	
+}
